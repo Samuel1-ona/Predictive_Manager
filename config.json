@@ -1,0 +1,14 @@
+{
+  "admin": null,
+  "initial_player_tokens": "1000.",
+  "daily_login_reward": "10.",
+  "market_creation_cost": "100.",
+  "min_market_duration_seconds": 300,
+  "max_outcomes_per_market": 10,
+  "oracle_voting_duration_seconds": 3600,
+  "min_oracle_voters": 3,
+  "market_creator_fee_percent": 2,
+  "platform_fee_percent": 1
+}
+
+
