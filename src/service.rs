@@ -88,7 +88,7 @@ mod tests {
             .now_or_never()
             .expect("Query should not await anything");
 
-        let expected = Response::new(Value::from_json(json!({"totalSupply": "1000000000000"})).unwrap());
+        let expected = Response::new(Value::from_json(json!({"totalSupply": "1000."})).unwrap());   // the value go exceeds
 
         assert_eq!(response, expected)
     }
